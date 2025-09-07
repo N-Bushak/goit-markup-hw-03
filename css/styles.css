@@ -29,6 +29,8 @@ a {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 button {
@@ -311,9 +313,9 @@ li {
   padding: 100px 0;
 }
 
-.footer-container {
+/* .footer-container {
+} */
 
-}
 .footer-logo {
   display: inline-block;
   padding-bottom: 16px;
