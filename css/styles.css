@@ -31,6 +31,10 @@ img {
   display: block;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* common */
 
 .container {
@@ -132,30 +136,13 @@ header {
 
 /* hero */
 
-.team {
-}
-.container {
-}
-.team-title {
-}
-.team-list {
-}
-.team-item {
-}
-.team-image {
-}
-.team-subtitle {
-}
-.team-desc {
-}
-
-.page-footer {
-  background-color: #2e2f42;
-}
-
 .solutions {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
+
+/* .solutions-container {
+} */
 
 h1 {
   font-weight: 700;
@@ -166,18 +153,56 @@ h1 {
   color: #fff;
 }
 
+.solutions-title {
+  max-width: 496px;
+  margin: 0 auto 48px;
+}
+
 .order-button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
-  cursor: pointer;
+  padding: 16px 32px;
+  display: block;
+  margin: 0 auto;
 }
 
 .order-button:hover,
 .order-button:focus {
   background-color: #404bbf;
+}
+
+/* about us */
+
+.about-us {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.about-us-title {
+  color: #fff;
+  padding-bottom: 8px;
+}
+
+.about-us-list {
+  display: flex;
+  gap: 24px;
+}
+.about-us-item {
+  width: calc((100% - 72) / 4);
+}
+
+.about-us-subtitle {
+  padding-bottom: 8px;
+}
+
+/* .about-us-desc {
+} */
+
+.page-footer {
+  background-color: #2e2f42;
 }
 
 h2 {
@@ -187,11 +212,6 @@ h2 {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-}
-
-.about-us-title {
-  color: #fff;
-}
 
 h3 {
   font-weight: 500;
@@ -209,10 +229,27 @@ p {
 
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
+.team-title {
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
 .team-subtitle {
   text-align: center;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-item {
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  width: calc((100% - 72) / 4);
 }
 
 .team-desc {
@@ -221,6 +258,16 @@ p {
 
 li {
   background-color: #fff;
+}
+
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footer-text {
